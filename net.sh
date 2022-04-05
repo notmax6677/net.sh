@@ -29,7 +29,6 @@ syntax_error()
  # in green
  tput setaf 2; echo "./net.sh connect NETWORK_NAME PASSWORD"
 
- echo "" # skip line
 }
 
 echo "" # skip first line
@@ -77,4 +76,4 @@ else
  syntax_error "No action was specified."
 fi
 
-
+echo "" # skip line
