@@ -4,13 +4,13 @@ This is a simple wifi network tool with a few functions to simplify your life as
 
 For idiots like me, it can be extremely torturing to have to deal with stuff like this. It comes in handy when running a window manager like i3 on a laptop.. without ethernet.. it can be a pain in the ass to manage your connections without a built in out-of-the-box network manager that other systems may have, like ones running KDE, GNOME, or XFCE.
 
-### Prerequisites
+## Prerequisites
 * nmcli
 * tput
 
 You probably have these installed on your linux system anyways lol
 
-### Installation
+## Installation
 Literally just curl, wget, or download net.sh and add it to your path, wherever that may be.
 
 wget:
@@ -33,7 +33,7 @@ For the sake of not having to write the extension every time you use the program
 mv PATH_TO_FOLDER/net.sh PATH_TO_FOLDER/net
 ```
 
-### Usage
+## Usage
 Now, we can finally get our hands on this and start using it.
 
 ##### Connecting to a network (with password)
