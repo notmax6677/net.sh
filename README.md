@@ -30,7 +30,7 @@ chmod +x net.sh
 
 For the sake of not having to write the extension every time you use the program, you can just remove it:
 ```sh
-mv $PATH_TO_FOLDER/net.sh $PATH_TO_FOLDER/net
+mv PATH_TO_FOLDER/net.sh PATH_TO_FOLDER/net
 ```
 
 ### Usage
@@ -38,17 +38,17 @@ Now, we can finally get our hands on this and start using it.
 
 ##### Connecting to a network (with password)
 ```sh
-./net connect $NETWORK_NAME $PASSWORD
+./net connect NETWORK_NAME PASSWORD
 ```
 
 #### Connecting to a network (without password)
 ```sh
-./net connect $NETWORK_NAME
+./net connect NETWORK_NAME
 ```
 
 #### Disconnecting from a network
 ```sh
-./net disconnect $NETWORK_NAME
+./net disconnect NETWORK_NAME
 ```
 
 And finally...
