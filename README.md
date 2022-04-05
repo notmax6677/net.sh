@@ -15,12 +15,12 @@ Literally just curl, wget, or download net.sh and add it to your path, wherever 
 
 wget:
 ```sh
-wget the thing
+wget https://raw.githubusercontent.com/notmax6677/net.sh/main/net.sh
 ```
 
 curl:
 ```sh
-curl the thing
+curl https://raw.githubusercontent.com/notmax6677/net.sh/main/net.sh -o net.sh
 ```
 
 You will probably need to make it an executable too:
